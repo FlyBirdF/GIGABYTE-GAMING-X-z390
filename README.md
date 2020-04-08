@@ -1,6 +1,6 @@
 # GIGABYTE-GAMING-X-z390-Hackintosh
 hackintosh Gigabyte Gaming X z390 i5-9600k with OpenCore0.5.7
-
+use matherboard hdmi
 
 ## Hardware
 |HardWare Type|Model|

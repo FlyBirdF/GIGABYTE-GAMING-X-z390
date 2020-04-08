@@ -13,7 +13,8 @@ hackintosh Gigabyte Gaming X z390 i5-9600k with OpenCore0.5.7
 
 
 ## Long Time Update
-** update 2020/04/07 **
+
+update 2020/04/07
 ------------------------------
 ### Guide Version
 [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 0.5.7

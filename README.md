@@ -14,7 +14,7 @@ use matherboard hdmi
 
 ## Long Time Update
 
-update 2020/04/07
+update 2020/04/08
 ------------------------------
 ### Guide Version
 [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 0.5.7

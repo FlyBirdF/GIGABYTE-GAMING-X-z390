@@ -55,11 +55,10 @@ update 2020/04/12 Verfying in Catalina 10.15.4
 ### Not yet tested
 - FileVault
 
-### Not test
 
 ### Another tips
 1. If you used **Clover** to boot the system in the past, please clean the NVRAM before boot.
-2. 
+2. Check your BIOS settings, please set default if necessary.
 
 
 update 2020/04/08 Verfying in Catalina 10.15.4

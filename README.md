@@ -9,10 +9,58 @@ use matherboard hdmi
 |CPU|i5 9600k|
 |GPU|Intel UHD 630|
 |Memory|CORSAIR VENGEANCE® LPX 2x8GB DDR4 2666MHz|
-|Network card|motherboard builtin|
+|Network card|Intel I219V7 PCI Express Gigabit Ethernet|
+|Wireless device|FV-T919 BCM94360|
 
 
 ## Long Time Update
+
+
+update 2020/04/12 Verfying in Catalina 10.15.4
+------------------------------
+### Update
+- add `SMCProcessor.kext` and `SMCSuperIO.kext`
+- remove all logs output (`Misc-->Debug-->AppleDebug` set to `NO`, `Misc-->Debug-->DisplayLevel` set to `0`)
+
+### Your BIOS settings (version F7)
+**Disable:**
+- Fast Boot
+- VT-d(can be enabled if you set **DisableIoMapper** to **YES**)
+- CSM
+- Intel SGX
+- Intel Platform Trust
+- CFG Lock(MSR 0xE2 write protection)
+
+**Enable:**
+- Above 4G decoding
+- Hyper-Threading(if your cpu supported)
+- EHCI/XHCI Hand-off
+- OS type: Windows 8.1/10
+- DVMT Pre-Allocated(iGPU Memory): 64MB
+
+### Working
+- Audio (Onboard)
+- Video output with HDMI
+- USB3.x bus
+- Ethernet
+- APFS
+- Handoff
+- Bluetooth & WIFI
+- Airdrop
+- Airplay
+
+### Not working
+- Sleep/Wake
+
+### Not yet tested
+- FileVault
+
+### Not test
+
+### Another tips
+1. If you used **Clover** to boot the system in the past, please clean the NVRAM before boot.
+2. 
+
 
 update 2020/04/08 Verfying in Catalina 10.15.4
 ------------------------------

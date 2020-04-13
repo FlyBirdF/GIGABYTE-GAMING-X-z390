@@ -22,7 +22,7 @@ update 2020/04/12 Verfying in Catalina 10.15.4
 - add `SMCProcessor.kext` and `SMCSuperIO.kext`
 - remove all logs output (`Misc-->Debug-->AppleDebug` set to `NO`, `Misc-->Debug-->DisplayLevel` set to `0`)
 
-### Your BIOS settings (version F7)
+### BIOS settings (version F9)
 **Disable:**
 - Fast Boot
 - VT-d(can be enabled if you set **DisableIoMapper** to **YES**)

@@ -42,6 +42,7 @@ update 2020/04/12 Verfying in Catalina 10.15.4
 - Audio (Onboard)
 - Video output with HDMI
 - USB3.x bus
+- USB2.0 
 - Ethernet
 - APFS
 - Handoff
